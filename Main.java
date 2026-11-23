@@ -1,6 +1,8 @@
 class Main {
     public static void main(String[] args) {
         System.out.println("Это добавлено в ветке main");
+        System.out.println("Это добавлено в ветке dev");
+
         sayHello();
 
         int result = sum(5, 10);
@@ -11,6 +13,7 @@ class Main {
 
         int difference = subtract(10, 5);
         System.out.println("Разность: " + difference);
+
         showInfo();
     }
 
@@ -29,6 +32,7 @@ class Main {
     public static int subtract(int a, int b) {
         return a - b;
     }
+
     public static void showInfo() {
         System.out.println("Практическая работа №6");
         System.out.println("Работа с ветками Git");
