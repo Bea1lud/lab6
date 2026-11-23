@@ -11,6 +11,7 @@ class Main {
 
         int difference = subtract(10, 5);
         System.out.println("Разность: " + difference);
+        showInfo();
     }
 
     public static void sayHello() {
@@ -27,5 +28,9 @@ class Main {
 
     public static int subtract(int a, int b) {
         return a - b;
+    }
+    public static void showInfo() {
+        System.out.println("Практическая работа №6");
+        System.out.println("Работа с ветками Git");
     }
 }
