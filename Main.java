@@ -8,6 +8,9 @@ class Main {
 
         int product = multiply(5, 10);
         System.out.println("Произведение: " + product);
+
+        int difference = subtract(10, 5);
+        System.out.println("Разность: " + difference);
     }
 
     public static void sayHello() {
@@ -20,5 +23,9 @@ class Main {
 
     public static int multiply(int a, int b) {
         return a * b;
+    }
+
+    public static int subtract(int a, int b) {
+        return a - b;
     }
 }
