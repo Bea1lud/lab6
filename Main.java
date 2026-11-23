@@ -1,5 +1,10 @@
 class Main {
     public static void main(String[] args) {
-        System.out.print("Это добавлено в ветке main");
+        System.out.println("Это добавлено в ветке main");
+        sayHello();
+    }
+
+    public static void sayHello() {
+        System.out.println("Hello, Git!");
     }
 }
