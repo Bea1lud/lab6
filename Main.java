@@ -5,6 +5,9 @@ class Main {
 
         int result = sum(5, 10);
         System.out.println("Сумма: " + result);
+
+        int product = multiply(5, 10);
+        System.out.println("Произведение: " + product);
     }
 
     public static void sayHello() {
@@ -13,5 +16,9 @@ class Main {
 
     public static int sum(int a, int b) {
         return a + b;
+    }
+
+    public static int multiply(int a, int b) {
+        return a * b;
     }
 }
